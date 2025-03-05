@@ -1,11 +1,11 @@
 import './App.css'
-import ApiRequest from './ApiRequest.tsx';
+import NavBar from './components/NavBar';
 
 function App() {
-
+  
   return (
     <>
-      <ApiRequest/>
+      <NavBar/>
     </>
   )
 }

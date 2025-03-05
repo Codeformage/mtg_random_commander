@@ -11,7 +11,7 @@ import React, { useState } from 'react';
     }
 
     return (
-        <div>
+        <div className="bg-secondary">
             <h1>API Request</h1>
             <button onClick={makeAPIcall}>Request API Scryfall</button>
             {cards.map((card) => (
